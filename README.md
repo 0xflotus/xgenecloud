@@ -43,8 +43,11 @@ $ xc app.open
 ```
 
 > GUI Installation Notes
+
 > • For Mac : Move the installed application to applications folder
+
 > • For Windows : Install into default paths (program files) and *open app manually* by going to program files.
+
 > • For Linux : Install into default path 
 
 #### Generate REST/GraphQL APIs Instantly
