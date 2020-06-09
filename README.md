@@ -31,18 +31,23 @@
 
 # Usage
 
-Install CLI
+#### Install CLI
 <pre>
 $ <b>npm install -g xc-cli</b>
 </pre>
 
-Install & Open GUI (Built in Database & API Client)
+#### Install & Open GUI (Built in Database & API Client)
 <pre>
 <b>$ xc app.install</b>
 <b>$ xc app.open</b>
 </pre>
 
-Auto generate REST/GraphQL APIs from new or existing database schema 
+GUI Installation Notes
+- For Mac : Move the installed application to applications folder
+- For Windows : Install into default paths (program files) and *open app manually* by going to program files.
+- For Linux : Install into default path 
+
+#### Generate REST/GraphQL APIs Instantly
 <pre>
 <b>$ xc new project-name</b>
 </pre>
