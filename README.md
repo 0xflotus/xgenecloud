@@ -32,15 +32,15 @@
 # Usage
 
 #### Install CLI
-<pre>
-$ <b>npm install -g xc-cli</b>
-</pre>
+```
+$ npm install -g xc-cli
+```
 
 #### Install & Open GUI (Built in Database & API Client)
-<pre>
-<b>$ xc app.install</b>
-<b>$ xc app.open</b>
-</pre>
+```
+$ xc app.install
+$ xc app.open
+```
 
 GUI Installation Notes
 - For Mac : Move the installed application to applications folder
@@ -48,9 +48,9 @@ GUI Installation Notes
 - For Linux : Install into default path 
 
 #### Generate REST/GraphQL APIs Instantly
-<pre>
-<b>$ xc new project-name</b>
-</pre>
+```
+$ xc new project-name
+```
 
 Help
 <pre>
