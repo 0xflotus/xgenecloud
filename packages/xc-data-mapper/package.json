@@ -1,0 +1,42 @@
+{
+  "name": "xc-data-mapper",
+  "version": "0.3.0",
+  "description": "Map database tables with a driver",
+  "author": "oof1lab <oof1lab@gmail.com>",
+  "homepage": "https://xgene.cloud",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/xgenecloud/xgenecloud.git"
+  },
+  "scripts": {
+    "test": "echo \"Need test cases\" && exit 1",
+    "test:travis": "NODE_ENV=test ./node_modules/.bin/mocha __tests__/sql.test.js --exit",
+    "pubilsh": "npm publish .",
+    "doc": "jsdoc2md -t readme.hbs ./lib/sql/BaseModelSql.js > README.md"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/xgenecloud/xgenecloud/issues"
+  },
+  "dependencies": {
+    "auto-bind": "^4.0.0",
+    "dataloader": "^2.0.0",
+    "knex": "^0.20.8",
+    "lodash": "^4.17.15",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "glob": "^7.1.6",
+    "mocha": "^7.0.1",
+    "mysql": "^2.18.1",
+    "jsdoc-to-markdown": "^5.0.3"
+  }
+}

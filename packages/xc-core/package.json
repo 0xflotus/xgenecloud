@@ -1,0 +1,38 @@
+{
+  "name": "xc-core",
+  "version": "0.3.0",
+  "description": "Base files of xgenecloud that create REST & GraphQL APIs for any database.",
+  "keywords": [
+    "Instant REST APIs",
+    "Instant GraphQL APIs"
+  ],
+  "author": "oof1lab <oof1lab@gmail.com>",
+  "homepage": "https://xgene.cloud",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgenecloud/xgenecloud.git"
+  },
+  "scripts": {
+    "test:travis" : "echo \"test travis\"",
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "pubilsh": "npm publish .",
+    "doc": "jsdoc2md -t readme.hbs ./lib/gql/*.js ./lib/rest/*.js ./lib/common/*.js > README.md"
+  },
+  "bugs": {
+    "url": "https://github.com/xgenecloud/xgenecloud/issues"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "dataloader": "^2.0.0",
+    "jsdoc-to-markdown": "^5.0.3"
+  }
+}

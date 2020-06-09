@@ -1,0 +1,60 @@
+{
+  "name": "xc-cli",
+  "version": "0.3.2",
+  "description": "CLI to create instant REST/GraphQL APIs for any database",
+  "main": "index.js",
+  "author": "oof1lab <oof1lab@gmail.com>",
+  "homepage": "https://xgene.cloud",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgenecloud/xgenecloud.git"
+  },
+  "scripts": {
+    "test:travis": "echo \"test travis\"",
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "xc": "npm install xc-migrator@latest",
+    "pubilsh": "npm publish .",
+    "postinstall": "node postInstall.js"
+  },
+  "bugs": {
+    "url": "https://github.com/xgenecloud/xgenecloud/issues"
+  },
+  "engines": {
+    "node": ">= 7.6.0"
+  },
+  "bin": {
+    "xc": "./index.js",
+    "xc-cli": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk-pipe": "^3.0.0",
+    "clear": "^0.1.0",
+    "cli-table3": "^0.6.0",
+    "colors": "^1.4.0",
+    "download": "^7.1.0",
+    "first-run": "^2.0.0",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.6",
+    "inquirer": "^7.0.4",
+    "jsonfile": "^6.0.0",
+    "knex": "^0.20.11",
+    "linux-os-info": "^2.0.0",
+    "mkdirp": "^1.0.3",
+    "mssql": "^6.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "open": "^7.0.2",
+    "ora": "^4.0.3",
+    "os-locale": "^4.0.0",
+    "pg": "^7.18.2",
+    "shelljs": "^0.8.3",
+    "socket.io-client": "^2.3.0",
+    "tcp-port-used": "^1.0.1",
+    "update-notifier": "^4.1.0",
+    "xc-migrator": "0.3.0",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {}
+}
