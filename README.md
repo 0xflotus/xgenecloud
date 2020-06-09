@@ -52,10 +52,10 @@ GUI Installation Notes
 $ xc new project-name
 ```
 
-Help
-<pre>
-<b>$ xc man</b>
-</pre>
+#### For Help
+```
+$ xc man
+```
 
 <p>
     <br/><br/>
